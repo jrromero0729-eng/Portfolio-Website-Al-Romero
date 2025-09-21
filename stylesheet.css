@@ -1,0 +1,231 @@
+/* This is the global rules for body */
+body{
+	background-color: lightgray;
+	color: black;
+
+	font: normal 20px Courier, monospace;
+
+	line-height: 1.6em;
+	margin:0;
+}
+
+body h4{
+	text-align: center;
+}
+
+/* This is for links */
+a{
+	text-decoration: underline;
+	color: blue;
+}
+
+a:hover{
+	color: indianred;
+}
+
+a:active{
+	background-color: red;
+	color: white;
+}
+
+/* Image Rules */
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* All h4 Rules*/
+h4 {
+	text-align: center;
+}
+
+/* contact calls */
+.contact-1 h6{
+	text-align: center;
+}
+
+.contact-1 h4{
+	text-align: center;
+}
+
+.container{
+	width:100%;
+	margin: auto;
+}
+
+/* highlight rules for Resume */
+.highlight{
+	color: cyan;
+	font-weight: bold;
+	background-color: lightyellow;
+}
+
+/* This is the border color and size for Cover Letter */
+.box-1{
+	background-color: skyblue;
+	color: floralwhite;
+	border: 5px black solid;
+	padding: 20px;
+	margin-top: 20px;
+	margin: 20px;
+}
+
+/* This is the font for Albert Romero Cover Letter*/
+
+.box-1 h1{
+	font-family: Tahoma;
+	font-weight: 800;
+	font-style: none;
+	text-decoration: underline;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	text-align: center;
+}
+
+/* This is the Resume box */
+.box-2{
+	background-color: red;
+	color: white;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-weight: 800;
+	text-decoration: underline;
+	text-transform: uppercase;
+	text-align: center;
+	border: 10px white solid;
+	padding: 10px;
+	margin: 10px 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.box-2 h1{
+	background: red;
+	color: black;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	text-decoration: underline;
+}
+
+/* This is the Resume boxes */
+.box-3{
+	background-color: black;
+	color: white;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	text-align: left;
+	border: 10px white solid;
+	padding: 10px;
+	margin: 10px 10px;
+	padding: 20px 0px;
+}
+
+/* This is the Career Goals title */
+.box-4{
+	background-color: seagreen;
+	color: white;
+	border: 5px black solid;
+	border-width: 3px;
+	border-bottom-width: 5px;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	text-align: center;
+}
+
+/* Table Rules for Resume */
+.table-1{
+	width: 79%;
+	border-style: dotted;
+	border-color: black;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	margin: 20px auto;
+	border-collapse: collapse;
+}
+
+.table-1 th,
+.table-1 td{
+	border: 1px solid black;
+	padding: 12px 20px;
+	text-align: center;
+}
+
+.table-1 caption{
+	font-size: 18px;
+	font-weight: bold;
+	caption-side: top;
+	text-align: center;
+}
+
+/* Button Rules for Cover Letter */
+.button{
+	background-color: skyblue;
+	color: white;
+	padding: 10px 15px;
+	border-style: dotted;
+	border-color: black;
+	display: flex;
+	justify-content: center;
+	width: 300px;
+	max-width: 100%;
+}
+
+.button:hover{
+	background: red;
+	color: white;
+}
+
+/* Button Rules for Resume */
+.button-2{
+	display: inline-block;
+	display: flex;
+	justify-content: center;
+	background-color: blue;
+	color: white;
+	padding: 10px 20px;
+	border-style: solid;
+	border-color: black;
+	width: 300px;
+	max-width: 100%;
+}
+
+.button-2:hover{
+	background: red;
+	color: white;
+}
+
+/* Button Rules for Career Goals */
+.button-3{
+	display: inline-block;
+	display: flex;
+	justify-content: center;
+	background-color: seagreen;
+	color: white;
+	padding: 10px 20px;
+	border-style: solid;
+	border-color: black;
+	width: 300px;
+	max-width: 100%;
+}
+
+/*Applied to all HTML elements*/
+*{
+	box-sizing: border-box;
+	margin: 5px;
+	padding: 5px;
+}
+
+/*Applied to all footer notes*/
+#footer-note {
+	font-size: 14px;
+	color: darkgray;
+	text-align: center;
+	padding: 10px;
+	border-top: 2px solid black;
+}
+
+/*Applied to Career Goals list*/
+ul.custom-list {
+	list-style-type: square;
+	margin: 20px;
+	padding-left: 40px;
+	font-family: Georgia, serif;
+}
